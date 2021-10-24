@@ -37,7 +37,6 @@ class MultiApp:
             "title": title,
             "function": func
         })
-        print(self.apps)
 
     def run(self):
         app = st.sidebar.selectbox(
